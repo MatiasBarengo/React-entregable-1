@@ -25,7 +25,7 @@ const Card = ({ quotes }) => {
     <div className="App" style={{ color: colors[randomColorIndex] }}>
       <div className="card">
         <p className="phrase">{quotes[index].quote}</p>
-        <p className="autor">{quotes[index].author}</p>
+        <p className="autor">-{quotes[index].author}</p>
         <button onClick={changePhrase} style={{ backgroundColor: colors[randomColorIndex] }}><i className="fa-solid fa-shuffle"></i></button>
       </div>
 
