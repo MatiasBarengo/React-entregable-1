@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  width: 50vw;
+  height: 15vh;
+  padding: 30px;
+  border-radius: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.phrase {
+  text-align: left;
+  margin: 0;
+}
+
+.autor {
+  text-align: right;
+  margin: 0;
+}
+
+button {
+  width: 70px; 
+}
+
+button:hover{
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);   
+}
